@@ -210,14 +210,13 @@
 // 	console.log(str);
 // }
 
-//120.2 Не решено
-//Переберите циклом числа от 10 до 1000 и выведите в консоль сумму первой и второй цифры каждого числа.
-let res = 0;
-for (let i = 10; i <= 1000; i++) {
-	let str = String(i);
-	let res = +str[0] + +str[1];
-	console.log(res);
-}
+//120.2
+// for (let i = 10; i <= 1000; i++) {
+// 	let str = String(i);
+// 	let res = +str[0] + +str[1];
+// 	console.log(res);
+// }
+
 //120.3
 // for (let i = 10; i <= 1000; i++) {
 // 	let str = String(i)[0];
@@ -267,13 +266,13 @@ for (let i = 10; i <= 1000; i++) {
 // 	}
 // }
 
-//121.4 Не решено Определите, сколько целых чисел, начиная с числа 1, нужно сложить, чтобы сумма получилась больше 100.
-// let count = 0;
+//121.4 
+// let count = 1;
 
 // for (let i = 1; i < 100; i++) {
-// 	count += i;
-// 	if (count > 100) {
-// 		console.log(count);
-// 		break;
-// 	}
+//   count += i;
+//   if (count >= 100) {
+//     console.log(i);
+//     break;
+//   }
 // }
